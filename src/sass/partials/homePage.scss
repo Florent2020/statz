@@ -76,11 +76,15 @@ body {
     color: #787878;
   }
 
+  & .MuiGrid-grid-xs-5 {
+    position: relative;
+  }
+
   & .right__home {
     position: absolute;
-    bottom: 13%;
-    right: 10%;
-    left: 67%;
+    bottom: 60px;
+    left: 60px;
+    max-width: 280px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 15px;
     border-top-right-radius: 35px;

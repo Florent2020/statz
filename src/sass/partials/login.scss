@@ -1,0 +1,27 @@
+.login__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  //   background: red;
+
+  & form {
+    padding: 50px;
+    background-color: #bbb;
+    width: 500px;
+
+    & .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+      color: rgba(0, 0, 0, 0.6) !important;
+      font-size: 1rem !important;
+      text-transform: none;
+      font-weight: 400 !important;
+    }
+  }
+
+  & .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

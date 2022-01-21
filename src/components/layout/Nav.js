@@ -12,7 +12,7 @@ function Nav() {
 
   function logout() {
     toggleOpen(!open);
-    navigate.push("/");
+    navigate("/");
   }
 
   return (

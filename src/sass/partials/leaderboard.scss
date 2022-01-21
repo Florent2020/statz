@@ -10,6 +10,12 @@
 .leaderboard__toppliste {
   background-color: #5b5b5b;
 
+  & .MuiGrid-grid-xs-4 {
+    position: relative;
+    top: 10px;
+    z-index: 2;
+  }
+
   & .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
     border: none !important;
   }
@@ -57,6 +63,11 @@
   align-items: center !important;
 }
 
+.css-177gid-MuiTableCell-root {
+  font-size: 19px !important;
+  font-weight: 700 !important;
+}
+
 .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
   width: 90% !important;
   margin: 0 auto !important;
@@ -71,4 +82,30 @@
 
 .css-1nfbgt6-MuiTable-root {
   border-spacing: 10px !important;
+}
+
+.alo {
+  position: relative;
+  height: 100vh;
+
+  & .tableHead {
+    background-color: #000 !important;
+    height: 60px;
+  }
+
+  & .css-y8ay40-MuiTableCell-root,
+  .css-i02g0k-MuiTableCell-root {
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  & .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    background-color: transparent;
+  }
 }

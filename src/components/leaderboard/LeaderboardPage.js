@@ -22,12 +22,12 @@ function LeaderboardPage() {
             <Grid item xs={4}>
               <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">
-                  Toppliste/Maned
+                  Toppliste/Måned
                 </InputLabel>
                 <Select
                   // labelId="demo-simple-select-label"
                   // id="demo-simple-select"
-                  label="Toppliste/Maned"
+                  label="Toppliste/Måned"
                 >
                   <MenuItem>Marcus</MenuItem>
                   <MenuItem>Marcus</MenuItem>
@@ -37,93 +37,120 @@ function LeaderboardPage() {
             </Grid>
           </Grid>
         </div>
-        <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 650 }} stickyHeader aria-label="sticky table">
-            <TableHead>
-              <TableRow>
-                <TableCell>Bruker</TableCell>
-                <TableCell align="right">Antall</TableCell>
-                <TableCell align="right">Verdi</TableCell>
-                <TableCell align="right">Mal</TableCell>
-                <TableCell align="right">%</TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              <TableRow>
-                <TableCell component="th" scope="row" className="bruker__body">
-                  Marcus
-                </TableCell>
-                <TableCell align="right" className="antall__body">
-                  7
-                  <ReportRoundedIcon />
-                </TableCell>
-                <TableCell align="right">121 000 kr</TableCell>
-                <TableCell align="right">94 499 kr</TableCell>
-                <TableCell align="right">144,87 %</TableCell>
-              </TableRow>
-            </TableBody>
+        <div className="alo">
+          <div className="tableHead"></div>
+          <TableContainer component={Paper}>
+            <Table
+              sx={{ minWidth: 650 }}
+              stickyHeader
+              aria-label="sticky table"
+            >
+              <TableHead>
+                <TableRow>
+                  <TableCell>Bruker</TableCell>
+                  <TableCell align="right">Antall</TableCell>
+                  <TableCell align="right">Verdi</TableCell>
+                  <TableCell align="right">Mål</TableCell>
+                  <TableCell align="right">%</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                <TableRow>
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    className="bruker__body"
+                  >
+                    Marcus
+                  </TableCell>
+                  <TableCell align="right" className="antall__body">
+                    7
+                    <ReportRoundedIcon />
+                  </TableCell>
+                  <TableCell align="right">121 000 kr</TableCell>
+                  <TableCell align="right">94 499 kr</TableCell>
+                  <TableCell align="right">144,87 %</TableCell>
+                </TableRow>
+              </TableBody>
 
-            <TableBody>
-              <TableRow>
-                <TableCell component="th" scope="row" className="bruker__body">
-                  Marcus
-                </TableCell>
-                <TableCell align="right" className="antall__body">
-                  7
-                  <ReportRoundedIcon />
-                </TableCell>
-                <TableCell align="right">121 000 kr</TableCell>
-                <TableCell align="right">94 499 kr</TableCell>
-                <TableCell align="right">144,87 %</TableCell>
-              </TableRow>
-            </TableBody>
+              <TableBody>
+                <TableRow>
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    className="bruker__body"
+                  >
+                    Marcus
+                  </TableCell>
+                  <TableCell align="right" className="antall__body">
+                    7
+                    <ReportRoundedIcon />
+                  </TableCell>
+                  <TableCell align="right">121 000 kr</TableCell>
+                  <TableCell align="right">94 499 kr</TableCell>
+                  <TableCell align="right">144,87 %</TableCell>
+                </TableRow>
+              </TableBody>
 
-            <TableBody>
-              <TableRow>
-                <TableCell component="th" scope="row" className="bruker__body">
-                  Marcus
-                </TableCell>
-                <TableCell align="right" className="antall__body">
-                  7
-                  <ReportRoundedIcon />
-                </TableCell>
-                <TableCell align="right">121 000 kr</TableCell>
-                <TableCell align="right">94 499 kr</TableCell>
-                <TableCell align="right">144,87 %</TableCell>
-              </TableRow>
-            </TableBody>
+              <TableBody>
+                <TableRow>
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    className="bruker__body"
+                  >
+                    Marcus
+                  </TableCell>
+                  <TableCell align="right" className="antall__body">
+                    7
+                    <ReportRoundedIcon />
+                  </TableCell>
+                  <TableCell align="right">121 000 kr</TableCell>
+                  <TableCell align="right">94 499 kr</TableCell>
+                  <TableCell align="right">144,87 %</TableCell>
+                </TableRow>
+              </TableBody>
 
-            <TableBody sx={{ mb: "50px" }}>
-              <TableRow>
-                <TableCell component="th" scope="row" className="bruker__body">
-                  Marcus
-                </TableCell>
-                <TableCell align="right" className="antall__body">
-                  7
-                  <ReportRoundedIcon />
-                </TableCell>
-                <TableCell align="right">121 000 kr</TableCell>
-                <TableCell align="right">94 499 kr</TableCell>
-                <TableCell align="right">144,87 %</TableCell>
-              </TableRow>
-            </TableBody>
+              <TableBody sx={{ mb: "50px" }}>
+                <TableRow>
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    className="bruker__body"
+                  >
+                    Marcus
+                  </TableCell>
+                  <TableCell align="right" className="antall__body">
+                    7
+                    <ReportRoundedIcon />
+                  </TableCell>
+                  <TableCell align="right">121 000 kr</TableCell>
+                  <TableCell align="right">94 499 kr</TableCell>
+                  <TableCell align="right">144,87 %</TableCell>
+                </TableRow>
+              </TableBody>
 
-            <TableBody>
-              <TableRow>
-                <TableCell component="th" scope="row" className="bruker__body">
-                  Marcus
-                </TableCell>
-                <TableCell align="right" className="antall__body">
-                  7
-                  <ReportRoundedIcon />
-                </TableCell>
-                <TableCell align="right">121 000 kr</TableCell>
-                <TableCell align="right">94 499 kr</TableCell>
-                <TableCell align="right">144,87 %</TableCell>
-              </TableRow>
-            </TableBody>
-          </Table>
-        </TableContainer>
+              <TableBody>
+                <TableRow>
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    className="bruker__body"
+                  >
+                    Marcus
+                  </TableCell>
+                  <TableCell align="right" className="antall__body">
+                    7
+                    <ReportRoundedIcon />
+                  </TableCell>
+                  <TableCell align="right">121 000 kr</TableCell>
+                  <TableCell align="right">94 499 kr</TableCell>
+                  <TableCell align="right">144,87 %</TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </div>
       </main>
     </>
   );
