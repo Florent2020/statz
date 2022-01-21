@@ -1,0 +1,94 @@
+footer {
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: #000;
+  padding: 0 30px;
+
+  // bottom: 0;
+  // position: absolute;
+  // right: 0;
+  // left: 105px;
+  // overflow: hidden;
+
+  & .footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: left;
+  }
+
+  & h6 {
+    font-size: 14px !important;
+    text-transform: uppercase;
+    margin-bottom: 10px !important;
+    letter-spacing: 2px !important;
+    color: #ccc;
+  }
+
+  & .css-z2eky3-MuiTypography-root {
+    font-size: 11px;
+    margin-bottom: 5px;
+    color: #7c7c7c;
+  }
+
+  & .marginTop {
+    margin-top: 33px;
+  }
+
+  & .css-z2eky3-MuiTypography-root:last-of-type {
+    color: #939393;
+  }
+
+  // & p {
+  //   font-size: 12px !important;
+  // }
+
+  & .css-11syc77-MuiPaper-root-MuiMobileStepper-root {
+    background-color: transparent;
+    padding-left: 0;
+
+    & .css-26w9jf-MuiMobileStepper-dot {
+      background-color: #eacd00;
+      margin-left: 0;
+      width: 7px;
+      height: 7px;
+      margin-right: 10px;
+    }
+
+    & .css-114p2tk-MuiMobileStepper-dot {
+      background-color: rgb(83, 82, 82);
+      margin-left: 0;
+      width: 7px;
+      height: 7px;
+      margin-right: 10px;
+    }
+  }
+
+  .css-1equabv-MuiGrid-root,
+  .css-gj1fbr-MuiGrid-root,
+  .css-1equabv-MuiGrid-root {
+    padding: 20px 30px;
+  }
+
+  & .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: #eacd00;
+    padding: 0;
+    min-width: 0;
+    text-transform: capitalize;
+  }
+
+  & .MuiGrid-grid-xs-2 {
+    display: flex;
+    flex-basis: 15.81667%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #474444, #181819);
+
+    & img {
+      width: 40%;
+    }
+  }
+}

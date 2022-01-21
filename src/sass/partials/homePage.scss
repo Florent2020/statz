@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+// Home page
+
+.home {
+  & .home__grid {
+    display: flex;
+  }
+  & .MuiGrid-grid-xs-7 {
+    background: linear-gradient(to bottom right, #474444, #181819);
+    height: 100vh;
+    position: relative;
+    z-index: 3;
+  }
+
+  & .left__home {
+    color: #fff;
+    transform: translate(61px, 150px);
+  }
+
+  & .MuiTypography-h4 {
+    font-size: 17px;
+  }
+
+  & .line {
+    position: relative;
+    margin: 10px 0px 13px;
+
+    & .line1 {
+      position: absolute;
+      width: 20%;
+      background-color: #998e4c;
+      border: none;
+      height: 1.5px;
+    }
+
+    & .line2 {
+      width: 28%;
+      background-color: #5c5858;
+      border: none;
+      height: 1.5px;
+    }
+  }
+
+  & .MuiTypography-h6 {
+    font-size: 13px;
+  }
+
+  & .MuiTypography-paragraph {
+    font-size: 10px;
+    margin: 5px 0 0;
+    color: #787878;
+  }
+
+  & .right__home {
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+    left: 67%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-top-right-radius: 35px;
+
+    & .MuiTypography-h1 span {
+      font-size: 25px;
+      position: relative;
+      bottom: 18px;
+    }
+
+    & .MuiTypography-paragraph {
+      font-size: 15px;
+      color: #fff;
+
+      & span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  & .MuiTypography-h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+}
+
+#bgVideo {
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}

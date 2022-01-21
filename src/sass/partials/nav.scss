@@ -1,0 +1,44 @@
+.nav {
+  background-color: #000;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+
+  & .nav-links {
+    display: flex;
+    align-items: center;
+  }
+
+  & .nav-link {
+    margin-left: 50px;
+  }
+
+  & a {
+    color: #c1c0c0;
+
+    &.active {
+      border-bottom: 2px solid #eacd00;
+      padding-bottom: 3px;
+      color: #eacd00;
+    }
+  }
+
+  & .login-link {
+    border: 2px solid #c1c0c0;
+    padding: 5px 25px;
+    border-radius: 3px;
+  }
+
+  & .dashboard__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .closed {
+    display: none;
+  }
+}
