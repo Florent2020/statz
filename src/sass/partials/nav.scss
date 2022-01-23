@@ -7,11 +7,12 @@
   top: 0;
   right: 0;
   width: 100%;
-  z-index: 1;
 
   & .nav-links {
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 2;
   }
 
   & .nav-link {

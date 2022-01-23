@@ -1,0 +1,212 @@
+.dash--head {
+  background-color: #000;
+  color: #fff;
+  //   clip-path: polygon(
+  //     100% 0,
+  //     100% 100%,
+  //     60.4% 100%,
+  //     50.7% 55%,
+  //     41.2% 100%,
+  //     0 100%,
+  //     0 0
+  //   );
+  text-align: center;
+  margin-bottom: 11px;
+
+  & h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 70px;
+  }
+
+  & .user--email {
+    font-size: 13px;
+    color: #bcbcbc;
+  }
+
+  & .username--results {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px auto 0;
+    padding: 0 0 10px;
+  }
+
+  & .left--results h4,
+  .right--results h4 {
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+  }
+
+  & .left--results span,
+  .right--results span {
+    font-size: 22px;
+  }
+}
+
+.dash--body {
+  background-color: #1b1b1b;
+  //   clip-path: polygon(50% 0%, 53% 3%, 100% 3%, 100% 100%, 0 100%, 0 3%, 47% 3%);
+  height: 100vh;
+  border-bottom: 1px solid #292828;
+
+  .user--body {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+
+    & select {
+      width: 80%;
+      border: none;
+      background-color: transparent;
+      color: #bcbcbc;
+      letter-spacing: 0.7px;
+
+      &:focus,
+      :active,
+      :focus-within,
+      :target,
+      :visited,
+      :focus-visible {
+        border: none !important;
+      }
+
+      & option {
+        color: #000;
+
+        &:focus,
+        :active,
+        :focus-within,
+        :target,
+        :visited,
+        :focus-visible {
+          border: none !important;
+        }
+      }
+    }
+
+    & .line {
+      position: relative;
+      margin: 10px auto 13px;
+      width: 76%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      & .line1 {
+        position: absolute;
+        width: 70%;
+        background-color: #c6b449;
+        border: none;
+        height: 2px;
+      }
+
+      & .line2 {
+        width: 100%;
+        background-color: #5c5858;
+        border: none;
+        height: 1.5px;
+      }
+    }
+
+    & .square--grid {
+      position: relative;
+
+      & svg {
+        color: #fff;
+        position: absolute;
+        font-size: 84px;
+        left: 50%;
+        transform: translate(-39%, -8%);
+        bottom: 100%;
+      }
+    }
+
+    & .square {
+      transform: rotate(45deg) translateX(-63%);
+      border: 15px solid #292929;
+      width: 150px;
+      border-radius: 3px;
+      margin: 0 auto;
+      height: 150px;
+      position: absolute;
+      top: -52px;
+      left: 50%;
+      background-color: #6c6b6b;
+
+      & .user {
+        background-image: url(../../image/user.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+}
+
+// ppppppppppppppppp
+
+// .dash--head {
+//     background-color: #000;
+//     color: #fff;
+//     text-align: center;
+//     margin-bottom: 8px;
+//     position: relative;
+//     top: 60px;
+//     text-align: center;
+//     margin-bottom: 60px;
+
+//     & h1 {
+//       position: relative;
+//       font-size: 28px;
+//       font-weight: 500;
+//       padding-top: 18px;
+//       z-index: 5;
+//     }
+
+//     & span {
+//       position: relative;
+//     }
+
+//     & .username--results {
+//       display: flex;
+//       width: 600px;
+//       justify-content: space-around;
+//       align-items: center;
+//       margin: 20px auto 0;
+//     }
+
+//     & .left--results h4,
+//     .right--results h4 {
+//       padding-bottom: 8px;
+//       text-transform: uppercase;
+//       letter-spacing: 3px;
+//       font-weight: 500;
+//     }
+
+//     & .triangle {
+//       width: 0;
+//       height: 0;
+//       border-left: 100px solid transparent;
+//       border-right: 100px solid transparent;
+//       border-bottom: 100px solid rgb(255, 255, 255);
+//     }
+
+//     & .left--results span,
+//     .right--results span {
+//       font-size: 22px;
+//     }
+//   }
+
+//   .dash--body {
+//     background-color: #d64040;
+
+//     height: 100vh;
+//   }
