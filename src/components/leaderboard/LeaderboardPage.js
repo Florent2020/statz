@@ -5,13 +5,12 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Grid from "@mui/material/Grid";
 import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import ReportRoundedIcon from "@mui/icons-material/ReportRounded";
+import TableBodyComponent from "./TableBody";
 
 function LeaderboardPage() {
   return (
@@ -24,11 +23,7 @@ function LeaderboardPage() {
                 <InputLabel id="demo-simple-select-label">
                   Toppliste/Måned
                 </InputLabel>
-                <Select
-                  // labelId="demo-simple-select-label"
-                  // id="demo-simple-select"
-                  label="Toppliste/Måned"
-                >
+                <Select label="Toppliste/Måned">
                   <MenuItem>Marcus</MenuItem>
                   <MenuItem>Marcus</MenuItem>
                   <MenuItem>Marcus</MenuItem>
@@ -54,100 +49,12 @@ function LeaderboardPage() {
                   <TableCell align="right">%</TableCell>
                 </TableRow>
               </TableHead>
-              <TableBody>
-                <TableRow>
-                  <TableCell
-                    component="th"
-                    scope="row"
-                    className="bruker__body"
-                  >
-                    Marcus
-                  </TableCell>
-                  <TableCell align="right" className="antall__body">
-                    7
-                    <ReportRoundedIcon />
-                  </TableCell>
-                  <TableCell align="right">121 000 kr</TableCell>
-                  <TableCell align="right">94 499 kr</TableCell>
-                  <TableCell align="right">144,87 %</TableCell>
-                </TableRow>
-              </TableBody>
 
-              <TableBody>
-                <TableRow>
-                  <TableCell
-                    component="th"
-                    scope="row"
-                    className="bruker__body"
-                  >
-                    Marcus
-                  </TableCell>
-                  <TableCell align="right" className="antall__body">
-                    7
-                    <ReportRoundedIcon />
-                  </TableCell>
-                  <TableCell align="right">121 000 kr</TableCell>
-                  <TableCell align="right">94 499 kr</TableCell>
-                  <TableCell align="right">144,87 %</TableCell>
-                </TableRow>
-              </TableBody>
-
-              <TableBody>
-                <TableRow>
-                  <TableCell
-                    component="th"
-                    scope="row"
-                    className="bruker__body"
-                  >
-                    Marcus
-                  </TableCell>
-                  <TableCell align="right" className="antall__body">
-                    7
-                    <ReportRoundedIcon />
-                  </TableCell>
-                  <TableCell align="right">121 000 kr</TableCell>
-                  <TableCell align="right">94 499 kr</TableCell>
-                  <TableCell align="right">144,87 %</TableCell>
-                </TableRow>
-              </TableBody>
-
-              <TableBody sx={{ mb: "50px" }}>
-                <TableRow>
-                  <TableCell
-                    component="th"
-                    scope="row"
-                    className="bruker__body"
-                  >
-                    Marcus
-                  </TableCell>
-                  <TableCell align="right" className="antall__body">
-                    7
-                    <ReportRoundedIcon />
-                  </TableCell>
-                  <TableCell align="right">121 000 kr</TableCell>
-                  <TableCell align="right">94 499 kr</TableCell>
-                  <TableCell align="right">144,87 %</TableCell>
-                </TableRow>
-              </TableBody>
-
-              <TableBody>
-                <TableRow>
-                  <TableCell
-                    component="th"
-                    scope="row"
-                    className="bruker__body"
-                  >
-                    Marcus
-                  </TableCell>
-                  <TableCell align="right" className="antall__body">
-                    7
-                    <ReportRoundedIcon />
-                  </TableCell>
-                  <TableCell align="right">121 000 kr</TableCell>
-                  <TableCell align="right">94 499 kr</TableCell>
-                  <TableCell align="right">144,87 %</TableCell>
-                </TableRow>
-              </TableBody>
+              <TableBodyComponent />
+              <TableBodyComponent />
+              <TableBodyComponent />
+              <TableBodyComponent />
+              <TableBodyComponent />
             </Table>
           </TableContainer>
         </div>
