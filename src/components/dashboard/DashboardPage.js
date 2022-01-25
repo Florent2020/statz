@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import Grid from "@mui/material/Grid";
 import PersonIcon from "@mui/icons-material/Person";
 import bgVideo from "../../image/bg-video.mp4";
 

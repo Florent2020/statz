@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../image/logo.png";
 
 function Header() {
   return (
     <header className="header">
-      <div className="logo">
-        <Link to="/">statz</Link>
+      <div>
+        <Link to="/">
+          <img src={Logo} alt="logo" className="logo" />
+        </Link>
       </div>
     </header>
   );
