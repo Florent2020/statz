@@ -55,9 +55,9 @@ function LoginPage() {
             <Typography variant="paragraph">
               Enter your personal details and start journey with us
             </Typography>
-            <Button variant="contained">
-              <Link to="/sign-up">Sign up</Link>
-            </Button>
+            <Link to="/register">
+              <Button variant="contained">Sign up</Button>
+            </Link>
           </Grid>
         </Box>
       </div>
