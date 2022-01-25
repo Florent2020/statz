@@ -21,6 +21,9 @@ function Nav() {
         <li className="nav-link">
           <NavLink to="/">Hjem</NavLink>
         </li>
+        <li className="nav-link">
+          <NavLink to="/register">Register</NavLink>
+        </li>
         <li
           className={`nav-link login-link ${open ? "closed" : ""}`}
           onClick={toggle}
