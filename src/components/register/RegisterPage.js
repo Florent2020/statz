@@ -29,7 +29,7 @@ function RegisterPage() {
 
           <Grid item xs={7}>
             <div className="login--header">
-              <img src={Logo} alt="logo" className="logo" />
+              <img src={Logo} alt="statz" className="logo" />
               <Typography variant="h1">Create Account</Typography>
               <div className="login--social__media">
                 <Link to="#">

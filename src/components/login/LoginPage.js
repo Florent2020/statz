@@ -19,7 +19,7 @@ function LoginPage() {
         <Box component="form">
           <Grid item xs={7}>
             <div className="login--header">
-              <img src={Logo} alt="logo" className="logo" />
+              <img src={Logo} alt="statz" className="logo" />
               <Typography variant="h1">Sign in to Statz</Typography>
               <div className="login--social__media">
                 <Link to="#">
